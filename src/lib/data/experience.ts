@@ -77,6 +77,36 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: 'Acted as a liaison between multiple teams and oversaw outbound warehouse operations.'
+	},
+	{
+		slug: 'port-x-coordinator',
+		company: 'Port X Logistics',
+		description: 'As a Supply Chain Coordinator at Port X, I managed drayage and over-the-road shipments, negotiating carrier rates and expanding business. I leveraged technical expertise to automate workflows, enhance TMS reporting, and provide custom solutions for customers and colleagues. In this customer-facing role, I handled high-volume calls and secured additional freight opportunities.',
+		contract: ContractType.FullTime,
+		type: 'Ocean Freight Transportation',
+		location: 'Long Beach, CA',
+		period: { from: new Date(2021, 09, 1), to: new Date(2022, 11, 1) },
+		skills: getSkills('css', 'html', 'js'),
+		name: 'Supply Chain Coordinator',
+		color: 'yellow',
+		links: [],
+		logo: Assets.Unknown,
+		shortDescription: 'Managed drayage and over-the-road shipments for multiple customers.'
+	},
+	{
+		slug: 'apex-operations-rep',
+		company: 'Apex Logistics',
+		description: 'As a Dispatch Operations Representative at Apex Logistics, I managed warehouse operations, driver scheduling, and load planning, ensuring SLA compliance and efficient outbound shipments. I optimized inventory tracking with Smartsheet, automated billing with Excel VBA, and ensured accurate carrier payments.',
+		contract: ContractType.FullTime,
+		type: 'Transportation',
+		location: 'Compton, CA',
+		period: { from: new Date(2020, 02, 1), to: new Date(2021, 09, 1) },
+		skills: getSkills('css', 'html', 'js'),
+		name: 'Dispatch Operations Representative',
+		color: 'red',
+		links: [],
+		logo: Assets.Unknown,
+		shortDescription: 'Managed warehouse operations, oversaw driver scheduling, and load planning.'
 	}
 ];
 
