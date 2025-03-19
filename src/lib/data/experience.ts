@@ -19,7 +19,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'Ensured FTC compliance through daily peer reviews and provided validation for automation frameworks.'
 	},
 	{
-		slug: 'software-freelance',
+		slug: 'test-automation-intern',
 		company: 'Solvd Inc.',
 		description: 'As a Test Automation Engineering Intern at Solvd, my role focused on developing Selenium-based automated tests for web and mobile applications, ensuring functionality across various views and validating API responses. I strengthened my Java expertise through real-world projects, implementing Object-Oriented Design principles and utilizing tools like MyBatis, JDBC, and SQL databases to build transactional systems. Additionally, I actively participated in code reviews, debugging sessions, and algorithm-based assignments, reinforcing both technical and problem-solving skills in a collaborative environment.',
 		contract: ContractType.Internship,
@@ -31,7 +31,7 @@ export const items: Array<Experience> = [
 		color: 'green',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: 'Learned the ropes of test automation - focused primarily on learning Selenium and Java Concepts.'
 	},
 	{
 		slug: 'software-freelance-junior',
