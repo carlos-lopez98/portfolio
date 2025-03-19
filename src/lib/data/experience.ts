@@ -16,7 +16,7 @@ export const items: Array<Experience> = [
 		color: 'purple',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'As a Test Automation Engineer at Meta, my role focused on ensuring compliance with FTC orders by conducting in-depth peer reviews across Java, PHP, React, Kotlin, Swift, and Objective-C. I reviewed an average of 8-15 daily code submissions, auditing documentation, data pipelines, and databases to maintain a 100% FTC-compliant code base. Additionally, I contributed to the validation of in-house automation frameworks by manually testing automated review results, ensuring accuracy in compliance enforcement and streamlining the audit process.'
+		shortDescription: 'Ensured FTC compliance through daily peer reviews and provided validation for automation frameworks.'
 	},
 	{
 		slug: 'software-freelance',
