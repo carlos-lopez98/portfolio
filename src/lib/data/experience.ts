@@ -15,7 +15,7 @@ export const items: Array<Experience> = [
 		name: 'Test Automation Engineer',
 		color: 'purple',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.meta,
 		shortDescription: 'Ensured FTC compliance through daily peer reviews and provided validation for automation frameworks.'
 	},
 	{
@@ -30,7 +30,7 @@ export const items: Array<Experience> = [
 		name: 'Test Automation Engineer Intern',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.solvd,
 		shortDescription: 'Learned the ropes of test automation - focused primarily on learning Selenium and Java Concepts.'
 	},
 	{
@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 		name: 'Key Accounts Logistics Specialist',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.biocair,
 		shortDescription: 'Played an analytical role in tracking KPIs across multiple Biotech customers.'
 	},
 	{
@@ -60,7 +60,7 @@ export const items: Array<Experience> = [
 		name: 'Cell and Gene Therapy Logistics Specialist',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.biocair,
 		shortDescription: 'Handled all global supply chain operations for multiple Biotech customers.'
 	},
 	{
@@ -75,7 +75,7 @@ export const items: Array<Experience> = [
 		name: 'Logistics Specialist',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.griley,
 		shortDescription: 'Acted as a liaison between multiple teams and oversaw outbound warehouse operations.'
 	},
 	{
@@ -90,7 +90,7 @@ export const items: Array<Experience> = [
 		name: 'Supply Chain Coordinator',
 		color: 'yellow',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.portx,
 		shortDescription: 'Managed drayage and over-the-road shipments for multiple customers.'
 	},
 	{
@@ -105,7 +105,7 @@ export const items: Array<Experience> = [
 		name: 'Dispatch Operations Representative',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.apex,
 		shortDescription: 'Managed warehouse operations, oversaw driver scheduling, and load planning.'
 	}
 ];
