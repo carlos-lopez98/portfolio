@@ -5,8 +5,8 @@ import { ContractType, type Experience } from '../types';
 export const items: Array<Experience> = [
 	{
 		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		company: 'Meta (via Solvd Inc.)',
+		description: 'As a Test Automation Engineer at Meta, my role focused on ensuring compliance with FTC orders by conducting in-depth peer reviews across Java, PHP, React, Kotlin, Swift, and Objective-C. I reviewed an average of 8-15 daily code submissions, auditing documentation, data pipelines, and databases to maintain a 100% FTC-compliant code base. Additionally, I contributed to the validation of in-house automation frameworks by manually testing automated review results, ensuring accuracy in compliance enforcement and streamlining the audit process.',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
@@ -27,7 +27,7 @@ export const items: Array<Experience> = [
 		location: 'Home',
 		period: { from: new Date() },
 		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
+		name: 'Test Automation Engineer Intern',
 		color: 'blue',
 		links: [],
 		logo: Assets.Unknown,
