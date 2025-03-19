@@ -12,11 +12,11 @@ export const items: Array<Experience> = [
 		location: 'Home',
 		period: { from: new Date() },
 		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
-		color: 'red',
+		name: 'Test Automation Engineer',
+		color: 'purple',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		shortDescription: 'As a Test Automation Engineer at Meta, my role focused on ensuring compliance with FTC orders by conducting in-depth peer reviews across Java, PHP, React, Kotlin, Swift, and Objective-C. I reviewed an average of 8-15 daily code submissions, auditing documentation, data pipelines, and databases to maintain a 100% FTC-compliant code base. Additionally, I contributed to the validation of in-house automation frameworks by manually testing automated review results, ensuring accuracy in compliance enforcement and streamlining the audit process.'
 	},
 	{
 		slug: 'software-freelance',
