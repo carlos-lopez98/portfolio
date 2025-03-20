@@ -62,6 +62,15 @@ export const items = [
 		name: 'Selenium',
 		category: 'framework'
 	}),
+	defineSkill({
+		slug: 'reactjs',
+		color: 'cyan',
+		description:
+			'',
+		logo: Assets.ReactJs,
+		name: 'React Js',
+		category: 'library'
+	}),
 	// defineSkill({
 	// 	slug: 'js',
 	// 	color: 'yellow',
@@ -106,15 +115,6 @@ export const items = [
 		logo: Assets.Sass,
 		name: 'Sass',
 		category: 'markup-style'
-	}),
-	defineSkill({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'',
-		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'library'
 	})
 	// defineSkill({
 	// 	slug: 'svelte',
