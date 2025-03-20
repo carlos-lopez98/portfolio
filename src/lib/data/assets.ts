@@ -73,14 +73,14 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	WGU: a('wgu.svg'),
 	SpringBoot: a('Spring_Boot.svg'),
-	solvd: a('solvd.png'),
-	snhu: a('SNHU.svg'),
-	portx: a('portx.png'),
-	meta: a('meta.svg'),
-	griley: a('griley.png'),
-	cerritos: a('cerritos.png'),
-	biocair: a('Biocair Black.svg'),
-	apex: a('apex.png')
+	Solvd: a('solvd.png'),
+	Snhu: a('SNHU.svg'),
+	Portx: a('portx.png'),
+	Meta: a('meta.svg'),
+	Griley: a('griley.png'),
+	Cerritos: a('cerritos.png'),
+	Biocair: a('Biocair Black.svg'),
+	Apex: a('apex.png')
 };
 
 export default Assets;
