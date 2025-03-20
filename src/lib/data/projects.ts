@@ -4,22 +4,6 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'e-groceries',
-		color: '#5e95e3',
-		description:
-			'Full Stack Web Application intended for inventory management, at the time of fruition the app was specifically geared towards grocers, and intended on helping them monitor stock levels.',
-		shortDescription:
-			'Inventory Management Web-App',
-		links: [{ to: 'https://github.com/carlos-lopez98/E-Groceries', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'E-Groceries',
-		period: {
-			from: new Date(2022, 10, 1), to: new Date(2022, 12, 1)
-		},
-		skills: getSkills('java', 'aws', 'spring boot', 'js', 'css', 'html'),
-		type: 'Web Application'
-	},
-	{
 		slug: 'crime-watchers',
 		color: '#ff3e00',
 		description:
@@ -33,7 +17,7 @@ export const items: Array<Project> = [
 			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
 		},
 		skills: getSkills('java', 'spring boot', 'aws', 'css', 'html', 'js'),
-		type: 'Website Template',
+		type: 'Web Application',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -60,7 +44,24 @@ export const items: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
+	},
+	{
+		slug: 'e-groceries',
+		color: '#5e95e3',
+		description:
+			'Full Stack Web Application intended for inventory management, at the time of fruition the app was specifically geared towards grocers, and intended on helping them monitor stock levels.',
+		shortDescription:
+			'Inventory Management Web-App',
+		links: [{ to: 'https://github.com/carlos-lopez98/E-Groceries', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'E-Groceries',
+		period: {
+			from: new Date(2022, 10, 1), to: new Date(2022, 12, 1)
+		},
+		skills: getSkills('java', 'aws', 'spring boot', 'js', 'css', 'html'),
+		type: 'Web Application'
 	}
+
 ];
 
 export const title = 'Projects';
