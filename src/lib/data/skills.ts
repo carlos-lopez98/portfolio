@@ -96,6 +96,24 @@ export const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'spring boot',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.SpringBoot,
+		name: 'Spring Boot',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'selenium',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.Selenium,
+		name: 'Selenium',
+		category: 'framework'
 	})
 ] as const;
 
