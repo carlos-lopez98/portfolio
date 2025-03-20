@@ -5,7 +5,7 @@ import type { Project } from '../types';
 export const items: Array<Project> = [
 	{
 		slug: 'crime-watchers',
-		color: '#ff3e00',
+		color: 'black',
 		description:
 			'Fullstack web application designed to bring a better sense of safety into a user\'s neighborhood, think Nextdoor App.',
 		shortDescription:
@@ -27,7 +27,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'e-groceries',
-		color: '#5e95e3',
+		color: 'red',
 		description:
 			'Full Stack Web Application intended for inventory management, at the time of fruition the app was specifically geared towards grocers, and intended on helping them monitor stock levels.',
 		shortDescription:
