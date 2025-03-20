@@ -90,15 +90,6 @@ export const items = [
 		category: 'framework'
 	}),
 	defineSkill({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'',
-		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'library'
-	}),
-	defineSkill({
 		slug: 'aws',
 		color: 'orange',
 		description:
@@ -107,6 +98,16 @@ export const items = [
 		name: 'AWS',
 		category: 'devops'
 	}),
+	defineSkill({
+		slug: 'reactjs',
+		color: 'cyan',
+		description:
+			'',
+		logo: Assets.ReactJs,
+		name: 'React Js',
+		category: 'library'
+	}),
+
 	// defineSkill({
 	// 	slug: 'js',
 	// 	color: 'yellow',

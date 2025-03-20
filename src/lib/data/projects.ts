@@ -4,20 +4,20 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'e-groceries',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Full Stack Web Application intended for inventory management, at the time of fruition the app was specifically geared towards grocers, and intended on helping them monitor stock levels.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Inventory Management Web-App',
+		links: [{ to: 'https://github.com/carlos-lopez98/E-Groceries', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'E-Groceries',
 		period: {
-			from: new Date()
+			from: new Date(2022, 10, 1), to: new Date(2022, 12, 1)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('java', 'aws', 'spring boot', 'js', 'css', 'html'),
+		type: 'Web Application'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
