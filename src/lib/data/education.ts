@@ -11,7 +11,7 @@ export const items: Array<Education> = [
 		organization: 'Western Governors University',
 		period: { from: new Date(2023, 2, 1), to: new Date(2025, 6, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
+		slug: 'wgu',
 		subjects: ['Java', 'Data Structures and Algorithms', 'Cloud Fundamentals', 'Computer Architecture', 'IT Fundamentals']
 	},
 	{
@@ -23,20 +23,20 @@ export const items: Array<Education> = [
 		organization: 'SNHU',
 		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
+		slug: 'snhu',
 		subjects: ['Java', 'Data Structures and Algorithms', 'Backend Development', 'AWS']
 	},
 	{
 		degree: 'PhD of Computer Science',
 		description: '',
-		location: 'USA',
+		location: 'Norwalk, California',
 		logo: Assets.Cerritos,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Cerritos',
+		period: { from: new Date(2017, 8, 1), to: new Date(2020, 5, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'cerritos',
+		subjects: ['Physics', 'Calculus I/II', 'Linear Algebra']
 	}
 ];
 
