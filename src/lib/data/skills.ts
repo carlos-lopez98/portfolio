@@ -35,6 +35,33 @@ const defineSkill = <S extends string>(
 };
 
 export const items = [
+	defineSkill({
+		slug: 'java',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'spring boot',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.SpringBoot,
+		name: 'Spring Boot',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'selenium',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.Selenium,
+		name: 'Selenium',
+		category: 'framework'
+	}),
 	// defineSkill({
 	// 	slug: 'js',
 	// 	color: 'yellow',
@@ -88,7 +115,7 @@ export const items = [
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
-	}),
+	})
 	// defineSkill({
 	// 	slug: 'svelte',
 	// 	color: 'orange',
@@ -97,33 +124,7 @@ export const items = [
 	// 	name: 'Svelte',
 	// 	category: 'library'
 	// }),
-	defineSkill({
-		slug: 'spring boot',
-		color: 'green',
-		description:
-			'',
-		logo: Assets.SpringBoot,
-		name: 'Spring Boot',
-		category: 'framework'
-	}),
-	defineSkill({
-		slug: 'selenium',
-		color: 'green',
-		description:
-			'',
-		logo: Assets.Selenium,
-		name: 'Selenium',
-		category: 'framework'
-	}),
-	defineSkill({
-		slug: 'java',
-		color: 'orange',
-		description:
-			'',
-		logo: Assets.Java,
-		name: 'Java',
-		category: 'pro-lang'
-	})
+
 ] as const;
 
 export const title = 'Skills';
