@@ -83,7 +83,7 @@ const Assets = {
 	Apex: a('apex.png'),
 	Junit: a('junit5.png'),
 	Mockito: a('mockito.png'),
-	Mybatis: a('mybatis.png')
+	Mybatis: a('mybatis.png'),
 };
 
 export default Assets;

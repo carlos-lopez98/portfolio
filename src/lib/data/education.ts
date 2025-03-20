@@ -10,7 +10,7 @@ export const items: Array<Education> = [
 		name: '',
 		organization: 'Western Governors University',
 		period: { from: new Date(2023, 2, 1), to: new Date(2025, 6, 1) },
-		shortDescription: '',
+		shortDescription: 'Bachelor\'s still in progress',
 		slug: 'wgu',
 		subjects: ['Java', 'Data Structures and Algorithms', 'Cloud Fundamentals', 'Computer Architecture', 'IT Fundamentals']
 	},

@@ -98,6 +98,15 @@ export const items = [
 		name: 'React Js',
 		category: 'library'
 	}),
+	defineSkill({
+		slug: 'aws',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'devops'
+	}),
 	// defineSkill({
 	// 	slug: 'js',
 	// 	color: 'yellow',
