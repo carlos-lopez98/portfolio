@@ -20,7 +20,7 @@ export const items: Array<Project> = [
 		type: 'Web Application',
 		screenshots: [
 			{
-				label: 'screen 1',
+				label: 'Short Demo',
 				src: 'https://user-images.githubusercontent.com/90943184/212566731-8d182c15-8a0d-4b27-b918-dfc968963196.gif'
 			}
 		]
@@ -42,7 +42,7 @@ export const items: Array<Project> = [
 		type: 'Web Application',
 		screenshots: [
 			{
-				label: 'screen 1',
+				label: 'Home Screen',
 				src: 'https://user-images.githubusercontent.com/90943184/210430121-2c7454d2-d37e-4bb8-89fe-b66464c89ef8.jpg'
 			}
 		]
