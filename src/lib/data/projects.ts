@@ -20,19 +20,19 @@ export const items: Array<Project> = [
 		type: 'Web Application'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'crime-watchers',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Fullstack web application designed to bring a better sense of safety into a user\'s neighborhood, think Nextdoor App.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'A Nextdoor App Clone',
+		links: [{ to: 'https://github.com/carlos-lopez98/CrimeWatchers', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Crime Watchers',
 		period: {
-			from: new Date()
+			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		skills: getSkills('java', 'spring boot', 'aws', 'css', 'html', 'js'),
 		type: 'Website Template',
 		screenshots: [
 			{

@@ -45,6 +45,15 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'js',
+		color: 'yellow',
+		description:
+			'',
+		logo: Assets.JavaScript,
+		name: 'Javascript',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'spring boot',
 		color: 'green',
 		description:
@@ -108,15 +117,7 @@ export const items = [
 		category: 'library'
 	}),
 
-	// defineSkill({
-	// 	slug: 'js',
-	// 	color: 'yellow',
-	// 	description:
-	// 		'',
-	// 	logo: Assets.JavaScript,
-	// 	name: 'Javascript',
-	// 	category: 'pro-lang'
-	// }),
+
 	// defineSkill({
 	// 	slug: 'ts',
 	// 	color: 'blue',
