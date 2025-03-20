@@ -147,11 +147,11 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 		display.push(`${Math.trunc(weeks)} week${weeks >= 2 ? 's' : ''}`);
 	}
 
-	const days = remaining / DAY;
-	if (days >= 1) {
-		remaining = remaining % DAY;
-		display.push(`${Math.trunc(days)} day${days >= 2 ? 's' : ''}`);
-	}
+	// const days = remaining / DAY;
+	// if (days >= 1) {
+	// 	remaining = remaining % DAY;
+	// 	display.push(`${Math.trunc(days)} day${days >= 2 ? 's' : ''}`);
+	// }
 
 	if (display.length === 0) {
 		return '1 day';
