@@ -11,7 +11,7 @@ export const items: Array<Experience> = [
 		type: 'Test Automation',
 		location: 'Home',
 		period: { from: new Date(2024, 7, 1), to: new Date(2025, 2, 14) },
-		skills: getSkills('ts', 'js'),
+		skills: getSkills(),
 		name: 'Test Automation Engineer',
 		color: 'purple',
 		links: [],
