@@ -70,17 +70,17 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg'),
-	WGU: a('wgu.svg'),
-	SpringBoot: a('Spring_Boot.svg'),
-	Solvd: a('solvd.png'),
-	Snhu: a('SNHU.svg'),
-	Portx: a('portx.png'),
-	Meta: a('meta.svg'),
-	Griley: a('griley.png'),
-	Cerritos: a('cerritos.png'),
-	Biocair: a('Biocair Black.svg'),
-	Apex: a('apex.png')
+	Postcss: a('postcss.svg')
+	// WGU: a('wgu.svg'),
+	// SpringBoot: a('Spring_Boot.svg'),
+	// Solvd: a('solvd.png'),
+	// Snhu: a('SNHU.svg'),
+	// Portx: a('portx.png'),
+	// Meta: a('meta.svg'),
+	// Griley: a('griley.png'),
+	// Cerritos: a('cerritos.png'),
+	// Biocair: a('Biocair Black.svg'),
+	// Apex: a('apex.png')
 };
 
 export default Assets;
