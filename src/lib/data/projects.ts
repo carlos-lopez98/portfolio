@@ -39,7 +39,13 @@ export const items: Array<Project> = [
 			from: new Date(2022, 10, 1), to: new Date(2022, 12, 1)
 		},
 		skills: getSkills('java', 'aws', 'spring boot', 'js', 'css', 'html'),
-		type: 'Web Application'
+		type: 'Web Application',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: 'https://user-images.githubusercontent.com/90943184/210430121-2c7454d2-d37e-4bb8-89fe-b66464c89ef8.jpg'
+			}
+		]
 	}
 
 ];
