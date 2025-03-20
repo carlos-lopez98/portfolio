@@ -63,6 +63,33 @@ export const items = [
 		category: 'framework'
 	}),
 	defineSkill({
+		slug: 'mybatis',
+		color: 'black',
+		description:
+			'',
+		logo: Assets.Mybatis,
+		name: 'MyBatis',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'junit',
+		color: 'red',
+		description:
+			'',
+		logo: Assets.Junit,
+		name: 'JUnit',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'mockito',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.Mockito,
+		name: 'Mockito',
+		category: 'framework'
+	}),
+	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
