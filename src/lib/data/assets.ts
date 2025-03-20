@@ -76,7 +76,7 @@ const Assets = {
 	Solvd: a('solvd.png'),
 	Snhu: a('SNHU.svg'),
 	Portx: a('portx.png'),
-	Meta: a('meta.svg'),
+	Meta: a('meta.png'),
 	Griley: a('griley.png'),
 	Cerritos: a('cerritos.png'),
 	Biocair: a('Biocair Black.svg'),
