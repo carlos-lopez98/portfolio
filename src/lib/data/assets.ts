@@ -79,7 +79,7 @@ const Assets = {
 	Meta: a('meta.png'),
 	Griley: a('griley.png'),
 	Cerritos: a('cerritos.png'),
-	Biocair: a('Biocair Black.svg'),
+	Biocair: a('biocair.jpg'),
 	Apex: a('apex.png'),
 	Junit: a('junit5.png'),
 	Mockito: a('mockito.png'),
