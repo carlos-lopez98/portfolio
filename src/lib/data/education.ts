@@ -21,7 +21,7 @@ export const items: Array<Education> = [
 		logo: Assets.Snhu,
 		name: '',
 		organization: 'SNHU',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		period: { from: new Date(2022, 1, 1), to: new Date(2023, 1, 1) },
 		shortDescription: '',
 		slug: 'snhu',
 		subjects: ['Java', 'Data Structures and Algorithms', 'Backend Development', 'AWS']
