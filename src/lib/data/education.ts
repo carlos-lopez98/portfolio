@@ -27,7 +27,7 @@ export const items: Array<Education> = [
 		subjects: ['Java', 'Data Structures and Algorithms', 'Backend Development', 'AWS']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Associate\'s in Natural Science',
 		description: '',
 		location: 'Norwalk, California',
 		logo: Assets.Cerritos,
