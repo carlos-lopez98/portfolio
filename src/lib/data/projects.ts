@@ -11,7 +11,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'A Nextdoor App Clone',
 		links: [{ to: 'https://github.com/carlos-lopez98/CrimeWatchers', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.Java,
 		name: 'Crime Watchers',
 		period: {
 			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
@@ -33,7 +33,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'Inventory Management Web-App',
 		links: [{ to: 'https://github.com/carlos-lopez98/E-Groceries', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Java,
 		name: 'E-Groceries',
 		period: {
 			from: new Date(2022, 10, 1), to: new Date(2022, 12, 1)
