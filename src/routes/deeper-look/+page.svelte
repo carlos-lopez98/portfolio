@@ -2,6 +2,7 @@
 	// eventually you'll import data or routes here
 	import ItemCard from '$lib/components/ItemCard/ItemCard.svelte';
 	import type { LinkedItem } from '$lib/types';
+	import { deeperLookItems } from '$lib/data/deeperlook';
 </script>
 
 <!-- Main Header -->
