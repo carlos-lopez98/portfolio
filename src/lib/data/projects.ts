@@ -26,6 +26,95 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'crime-watchers',
+		color: 'black',
+		description:
+			'Fullstack web application designed to bring a better sense of safety into a user\'s neighborhood, think Nextdoor App.',
+		shortDescription:
+			'A Nextdoor App Clone',
+		links: [{ to: 'https://github.com/carlos-lopez98/CrimeWatchers', label: 'GitHub' }],
+		logo: Assets.Java,
+		name: 'Crime Watchers',
+		period: {
+			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
+		},
+		skills: getSkills('java', 'spring boot', 'aws', 'css', 'html', 'js'),
+		type: 'Web Application',
+		screenshots: [
+			{
+				label: 'Short Demo',
+				src: 'https://user-images.githubusercontent.com/90943184/212566731-8d182c15-8a0d-4b27-b918-dfc968963196.gif'
+			}
+		]
+	},
+	{
+		slug: 'crime-watchers',
+		color: 'black',
+		description:
+			'Fullstack web application designed to bring a better sense of safety into a user\'s neighborhood, think Nextdoor App.',
+		shortDescription:
+			'A Nextdoor App Clone',
+		links: [{ to: 'https://github.com/carlos-lopez98/CrimeWatchers', label: 'GitHub' }],
+		logo: Assets.Java,
+		name: 'Crime Watchers',
+		period: {
+			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
+		},
+		skills: getSkills('java', 'spring boot', 'aws', 'css', 'html', 'js'),
+		type: 'Web Application',
+		screenshots: [
+			{
+				label: 'Short Demo',
+				src: 'https://user-images.githubusercontent.com/90943184/212566731-8d182c15-8a0d-4b27-b918-dfc968963196.gif'
+			}
+		]
+	},
+	{
+		slug: 'crime-watchers',
+		color: 'black',
+		description:
+			'Fullstack web application designed to bring a better sense of safety into a user\'s neighborhood, think Nextdoor App.',
+		shortDescription:
+			'A Nextdoor App Clone',
+		links: [{ to: 'https://github.com/carlos-lopez98/CrimeWatchers', label: 'GitHub' }],
+		logo: Assets.Java,
+		name: 'Crime Watchers',
+		period: {
+			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
+		},
+		skills: getSkills('java', 'spring boot', 'aws', 'css', 'html', 'js'),
+		type: 'Web Application',
+		screenshots: [
+			{
+				label: 'Short Demo',
+				src: 'https://user-images.githubusercontent.com/90943184/212566731-8d182c15-8a0d-4b27-b918-dfc968963196.gif'
+			}
+		]
+	},
+	{
+		slug: 'crime-watchers',
+		color: 'black',
+		description:
+			'Fullstack web application designed to bring a better sense of safety into a user\'s neighborhood, think Nextdoor App.',
+		shortDescription:
+			'A Nextdoor App Clone',
+		links: [{ to: 'https://github.com/carlos-lopez98/CrimeWatchers', label: 'GitHub' }],
+		logo: Assets.Java,
+		name: 'Crime Watchers',
+		period: {
+			from: new Date(2022, 11, 1), to: new Date(2023, 1, 26)
+		},
+		skills: getSkills('java', 'spring boot', 'aws', 'css', 'html', 'js'),
+		type: 'Web Application',
+		screenshots: [
+			{
+				label: 'Short Demo',
+				src: 'https://user-images.githubusercontent.com/90943184/212566731-8d182c15-8a0d-4b27-b918-dfc968963196.gif'
+			}
+		]
+	},
+
+	{
 		slug: 'e-groceries',
 		color: 'red',
 		description:
