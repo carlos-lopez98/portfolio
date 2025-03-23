@@ -3,6 +3,7 @@
 	import ItemCard from '$lib/components/ItemCard/ItemCard.svelte';
 	import type { LinkedItem } from '$lib/types';
 	import { deeperLookItems } from '$lib/data/deeperlook';
+	import SearchPage from '$lib/components/SearchPage.svelte';
 </script>
 
 <!-- Main Header -->
@@ -12,3 +13,5 @@
 		A more personal take on what I'm learning, building, and living.
 	</p>
 </section>
+
+<SearchPage />
