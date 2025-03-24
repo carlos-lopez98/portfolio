@@ -85,7 +85,8 @@ const Assets = {
 	Mockito: a('mockito.png'),
 	Mybatis: a('mybatis.png'),
 	Egroceries: a('egroceries.png', 'egroceries_dark.png'),
-	CrimeWatchers: a('crimewatchers.jpg')
+	CrimeWatchers: a('crimewatchers.jpg'),
+	Leetcode: a('Leetcode.jpg')
 };
 
 export default Assets;

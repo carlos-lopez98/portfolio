@@ -1,8 +1,10 @@
 <script lang="ts">
+	import { links } from '$lib/data/home';
 	import UIcon from '../Icon/UIcon.svelte';
 
 	export let label: string;
 	export let to: string;
+	export let newTab: boolean;
 </script>
 
 <a
@@ -10,7 +12,7 @@
 	href={to}
 	title={label}
 	target="_blank"
-	rel="noreferrer"
+	rel={newTab ? 'noopener noreferrer' : 'noreferrer'}
 	data-help={label}
 >
 	<UIcon icon="i-carbon-link" classes="text-[var(--secondary-text)]" />

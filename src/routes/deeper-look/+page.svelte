@@ -39,7 +39,7 @@
 	</div>
 
 	<p class="mt-2 text-[var(--secondary-text)] text-lg text-center">
-		A deeper look into my life, hobbies, interests, and programming stats.
+		A deeper look into my life, hobbies, interests, and programming journey.
 	</p>
 
 	{#if displayedItems.length === 0}
