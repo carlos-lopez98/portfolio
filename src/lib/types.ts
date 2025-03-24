@@ -65,6 +65,8 @@ export interface Project<S extends string = string> extends Item<S> {
 
 export interface LinkedItem<S extends string = string> extends Item<S> {
 	link?: string;
+	category: ('Programming' | 'Lifestyle' | 'Learning' | 'Reading' | 'Fitness' | 'Now Building')[];
+	color: string;
 }
 
 export interface Experience<S extends string = string> extends Project<S> {
