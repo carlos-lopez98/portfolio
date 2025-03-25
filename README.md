@@ -4,6 +4,7 @@ A clean, responsive developer portfolio built with [SvelteKit](https://kit.svelt
 
 This site serves as both a digital resume and a creative outlet for learning, building, and reflecting. It highlights my work in software engineering, my current learning goals, and a few snapshots of life outside of code.
 
+Check it out live [Portfolio](https://carlos-lopez98.github.io/portfolio)
 ---
 
 ## 🚀 Features
@@ -57,6 +58,6 @@ Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/carlos-jimenez
 
 This project is for personal use, but feel free to fork for inspiration. 🙌 (P.S. This is a modified typescript template)
 
-Original template:
+Original template: https://github.com/RiadhAdrani/slick-portfolio-svelte
 
 Modified by: Carlos Jimenez
