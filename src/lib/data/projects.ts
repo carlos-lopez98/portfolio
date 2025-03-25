@@ -10,7 +10,7 @@ export const items: Array<Project> = [
 			'',
 		shortDescription:
 			'My portfolio. You\'re looking at it.',
-		links: [{ to: '', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/carlos-lopez98/portfolio', label: 'GitHub' }],
 		logo: Assets.Portfolio,
 		name: 'Portfolio',
 		period: {
