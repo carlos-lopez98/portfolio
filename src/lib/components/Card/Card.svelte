@@ -48,8 +48,13 @@
 		const mX = ev.clientX - cX;
 		const mY = ev.clientY - cY;
 
-		const rY = ((tiltDegree * mX) / (width / 2)).toFixed(2);
-		const rX = ((-1 * (tiltDegree * mY)) / (height / 2)).toFixed(2);
+		const clamp = (val: number, min: number, max: number) => Math.max(min, Math.min(max, val));
+
+		// const rY = ((tiltDegree * mX) / (width / 2)).toFixed(2);
+		// const rX = ((-1 * (tiltDegree * mY)) / (height / 2)).toFixed(2);
+
+		const rY = clamp((tiltDegree * mX) / (width / 2), -tiltDegree, tiltDegree).toFixed(2);
+		const rX = clamp((-1 * (tiltDegree * mY)) / (height / 2), -tiltDegree, tiltDegree).toFixed(2);
 
 		el.style.setProperty('--rot-x', `${rX}deg`);
 		el.style.setProperty('--rot-y', `${rY}deg`);
@@ -72,7 +77,7 @@
 	)}`}
 	style:bgColor={'red'}
 >
-	<div class="card-bg-img flex-1 flex flex-col p-25px rounded-15px">
+	<div class="card-bg-img border border-[var(--border)] flex-1 flex flex-col p-25px rounded-15px">
 		<slot />
 	</div>
 </svelte:element>
@@ -91,11 +96,19 @@
 		--rot-x: 0;
 		--rot-y: 0;
 
+		will-change: transform;
+
 		background: linear-gradient(90deg, var(--main) 0%, var(--main) 60%, var(--main-60) 100%),
 			no-repeat right 40% / 40% var(--bg-img);
 
 		&-bg-img {
+			border: 1px solid var(--border);
+
+			will-change: transform, border-color;
+			transition: transform 0.2s ease;
+
 			&:hover {
+				border-color: var(--border-hover);
 				background-color: var(--bg-color);
 				background-image: radial-gradient(
 					circle at var(--drop-x) var(--drop-y),
@@ -103,11 +116,15 @@
 					transparent
 				);
 			}
+
+			.card:hover & {
+				transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
+			}
 		}
 
 		&:hover {
-			transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
-			border-color: var(--border-hover);
+			border-color: transparent;
+			// transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
 		}
 	}
 </style>
