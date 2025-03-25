@@ -118,15 +118,15 @@ export const items = [
 	}),
 
 
-	// defineSkill({
-	// 	slug: 'ts',
-	// 	color: 'blue',
-	// 	description:
-	// 		'',
-	// 	logo: Assets.TypeScript,
-	// 	name: 'Typescript',
-	// 	category: 'pro-lang'
-	// }),
+	defineSkill({
+		slug: 'ts',
+		color: 'blue',
+		description:
+			'',
+		logo: Assets.TypeScript,
+		name: 'Typescript',
+		category: 'pro-lang'
+	}),
 	defineSkill({
 		slug: 'css',
 		color: 'blue',

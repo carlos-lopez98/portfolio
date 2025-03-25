@@ -16,7 +16,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date(2023, 0, 12), to: new Date(2023, 2, 12)
 		},
-		skills: getSkills('typescript', 'css', 'html', 'sass'),
+		skills: getSkills('ts', 'css', 'html', 'sass'),
 		type: 'Web Application',
 		screenshots: [
 		]
