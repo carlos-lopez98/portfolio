@@ -71,6 +71,16 @@ export interface LinkedItem<S extends string = string> extends Item<S> {
 		src: string;
 		label: string;
 	}>
+	books?: Book[]; //This is specific to the BookCard
+}
+
+export interface Book {
+	title: string;
+	author: string;
+	image: string;
+	progress: number;
+	personalThoughts: string;
+	personalRating: string; //Score out of five
 }
 
 export interface Experience<S extends string = string> extends Project<S> {

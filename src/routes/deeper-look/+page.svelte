@@ -5,6 +5,7 @@
 	import { deeperLookItems } from '$lib/data/deeperlook';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import Chip from '$lib/components/Chip/Chip.svelte';
+	import BookCard from '$lib/components/BookCard/BookCard.svelte';
 
 	type Category = 'Programming' | 'Lifestyle' | 'Learning' | 'Reading' | 'Fitness' | 'Now Building';
 
@@ -47,7 +48,11 @@
 	{:else}
 		<div class="items-list">
 			{#each displayedItems as item}
-				<ItemCard {item} />
+				{#if item.slug === 'reading'}
+					<BookCard {item} />
+				{:else}
+					<ItemCard {item} />
+				{/if}
 			{/each}
 		</div>
 	{/if}
@@ -56,7 +61,7 @@
 <style lang="scss">
 	.items-list {
 		display: grid;
-		grid-template-rows: repeat(3, 1fr);
+		// grid-template-rows: repeat(3, 1fr);
 		gap: 20px;
 
 		@media (max-width: 1350px) {

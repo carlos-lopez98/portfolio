@@ -86,7 +86,10 @@ const Assets = {
 	Mybatis: a('mybatis.png'),
 	Egroceries: a('egroceries.png', 'egroceries_dark.png'),
 	CrimeWatchers: a('crimewatchers.jpg'),
-	Leetcode: a('Leetcode.jpg')
+	Leetcode: a('Leetcode.jpg'),
+	Devreads: a('devreads.webp'),
+	Personalreading: a('personalreadinglogo.webp'),
+	Portfolio: a('portfoliologo.webp')
 };
 
 export default Assets;

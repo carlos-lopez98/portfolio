@@ -4,6 +4,24 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
+		slug: '',
+		color: 'blue',
+		description:
+			'',
+		shortDescription:
+			'My portfolio. You\'re looking at it.',
+		links: [{ to: '', label: 'GitHub' }],
+		logo: Assets.Portfolio,
+		name: 'Portfolio',
+		period: {
+			from: new Date(2023, 0, 12), to: new Date(2023, 2, 12)
+		},
+		skills: getSkills('typescript', 'css', 'html', 'sass'),
+		type: 'Web Application',
+		screenshots: [
+		]
+	},
+	{
 		slug: 'crime-watchers',
 		color: 'black',
 		description:
