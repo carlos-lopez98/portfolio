@@ -21,9 +21,10 @@
 
 	// const isInternal = item.link?.startsWith('/');
 	// const href = item.link ? (isInternal ? `${base}${item.link}` : item.link) : undefined;
+	// href={`${base}/deeper-look/${item.slug}`} - Add this back in, once you add another card to the deeper look page
 </script>
 
-<Card href={`${base}/deeper-look/${item.slug}`} color={item.color} class="flex-1">
+<Card color={item.color}>
 	<CardLogo alt={item.name} src={getAssetURL(item.logo)} size={50} radius={'15px'} />
 
 	<div class="m-t-20px row justify-between items-center">

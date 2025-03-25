@@ -105,7 +105,7 @@
 			border: 1px solid var(--border);
 
 			will-change: transform, border-color;
-			transition: transform 0.2s ease;
+			transition: transform 0.1s ease;
 
 			&:hover {
 				border-color: var(--border-hover);
