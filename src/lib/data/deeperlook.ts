@@ -22,6 +22,14 @@ export const deeperLookItems: Array<LinkedItem> = [
                     personalRating: ''
                 },
                 {
+                    title: 'System Design: Volume 1',
+                    author: 'Alex Xu',
+                    image: `${base}/logos/systemdesign.jpg`,
+                    progress: 20,
+                    personalThoughts: "⏳ Work In Progress",
+                    personalRating: ''
+                },
+                {
                     title: 'Cracking the Coding Interview',
                     author: 'Gayle Laakmann McDowell',
                     image: `${base}/logos/crackingcodinginterview.jpg`,
@@ -29,6 +37,14 @@ export const deeperLookItems: Array<LinkedItem> = [
                     personalThoughts: "📝 Strongly Recommend",
                     personalRating: '⭐ 5 of 5'
                 },
+                {
+                    title: 'Grokking Algorithms',
+                    author: 'Aditya Y. Bhargava',
+                    image: `${base}/logos/grokkingalgorithms.jpg`,
+                    progress: 100,
+                    personalThoughts: "📝 Great for visualizing, too bad it doesn't have depth. Great for beginners.",
+                    personalRating: '⭐ 4 of 5'
+                }
             ]
     },
     {
