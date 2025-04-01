@@ -4,6 +4,16 @@ import { base } from '$app/paths';
 
 export const deeperLookItems: Array<LinkedItem> = [
     {
+        name: 'Dev HQ',
+        slug: 'devhq',
+        logo: Assets.Devhq,
+        shortDescription: 'I track every project, concept, and hour I study — all in one public Dev HQ. If you\'re curious how I build and learn, this is it.',
+        description: '',
+        link: { to: 'https://subdued-session-902.notion.site/Dev-HQ-1c6a6009985f8088847cd93788591b9e', label: 'Dev HQ - Links to Notion', newTab: true },
+        category: ['Programming', 'Learning', 'Now Building', 'Reading'],
+        color: 'cornflowerblue'
+    },
+    {
         name: 'Dev Reads',
         slug: 'reading',
         logo: Assets.Devreads,

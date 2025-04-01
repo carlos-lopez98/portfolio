@@ -89,7 +89,8 @@ const Assets = {
 	Leetcode: a('Leetcode.jpg'),
 	Devreads: a('devreads.webp'),
 	Personalreading: a('personalreadinglogo.webp'),
-	Portfolio: a('portfoliologo.webp')
+	Portfolio: a('portfoliologo.webp'),
+	Devhq: a('yinyang.jpg')
 };
 
 export default Assets;

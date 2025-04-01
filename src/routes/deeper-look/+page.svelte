@@ -6,6 +6,7 @@
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import BookCard from '$lib/components/BookCard/BookCard.svelte';
+	import DevCard from '$lib/components/DevCard/DevCard.svelte';
 
 	type Category = 'Programming' | 'Lifestyle' | 'Learning' | 'Reading' | 'Fitness' | 'Now Building';
 
@@ -50,6 +51,8 @@
 			{#each displayedItems as item}
 				{#if item.slug === 'reading'}
 					<BookCard {item} />
+				{:else if item.slug == 'devhq'}
+					<DevCard {item} />
 				{:else}
 					<ItemCard {item} />
 				{/if}
