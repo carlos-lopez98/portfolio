@@ -27,7 +27,7 @@ export const deeperLookItems: Array<LinkedItem> = [
                     title: 'Building Microservices',
                     author: 'Sam Newman',
                     image: `${base}/logos/buildingmicroservices.jpg`,
-                    progress: 5,
+                    progress: 33,
                     personalThoughts: "⏳ Work In Progress",
                     personalRating: ''
                 },
