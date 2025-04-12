@@ -64,6 +64,22 @@ export const items: Array<Project> = [
 				src: 'https://user-images.githubusercontent.com/90943184/210430121-2c7454d2-d37e-4bb8-89fe-b66464c89ef8.jpg'
 			}
 		]
+	},
+	{
+		slug: 'book-api',
+		color: 'green',
+		description:
+			'Built to practice Spring Boot setup, layered architecture, and REST API design. Uses in-memory data, DTOs, and dependency injection.',
+		shortDescription:
+			'Book Management API - Spring Boot Fundamentals Project',
+		links: [{ to: 'https://github.com/carlos-lopez98/book-api', label: 'GitHub' }],
+		logo: Assets.Bookapi,
+		name: 'Book API',
+		period: {
+			from: new Date(2025, 0, 1), to: new Date(2025, 3, 1)
+		},
+		skills: getSkills('java', 'spring boot'),
+		type: 'Spring Boot - Backend API'
 	}
 
 ];

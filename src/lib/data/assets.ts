@@ -90,7 +90,8 @@ const Assets = {
 	Devreads: a('devreads.webp'),
 	Personalreading: a('personalreadinglogo.webp'),
 	Portfolio: a('portfoliologo.webp'),
-	Devhq: a('yinyang.jpg')
+	Devhq: a('yinyang.jpg'),
+	Bookapi: a('bookapi.png')
 };
 
 export default Assets;
