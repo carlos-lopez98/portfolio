@@ -15,7 +15,7 @@ export const items: Array<Education> = [
 		subjects: ['Java', 'Data Structures and Algorithms', 'Cloud Fundamentals', 'Computer Architecture', 'IT Fundamentals']
 	},
 	{
-		degree: 'Certificate Diploma',
+		degree: 'Backend Software Engineering - Certificate Diploma',
 		description: 'Backend Focused Certification - Curriculum built by leading industry professionals',
 		location: 'Manchester, New Hampshire',
 		logo: Assets.Snhu,
