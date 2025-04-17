@@ -99,6 +99,15 @@ export const items = [
 		category: 'framework'
 	}),
 	defineSkill({
+		slug: 'postgres',
+		color: 'blue',
+		description:
+			'',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL',
+		category: 'db'
+	}),
+	defineSkill({
 		slug: 'aws',
 		color: 'orange',
 		description:

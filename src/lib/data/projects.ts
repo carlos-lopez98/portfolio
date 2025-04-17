@@ -66,6 +66,22 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'task-buddy-api',
+		color: 'orange',
+		description:
+			'A personal review project for reinforcing Spring Boot fundamentals, JPA relationships, and clean API design using DTOs and mappers.',
+		shortDescription:
+			'Task Management API - Database + Spring Boot Fundamentals',
+		links: [{ to: 'https://github.com/carlos-lopez98/task-api', label: 'GitHub' }],
+		logo: Assets.Taskbuddyapi,
+		name: 'Task Buddy API',
+		period: {
+			from: new Date(2025, 0, 1), to: new Date(2025, 4, 1)
+		},
+		skills: getSkills('java', 'spring boot', 'postgres'),
+		type: 'Spring Boot - Backend API'
+	},
+	{
 		slug: 'book-api',
 		color: 'green',
 		description:
@@ -76,7 +92,7 @@ export const items: Array<Project> = [
 		logo: Assets.Bookapi,
 		name: 'Book API',
 		period: {
-			from: new Date(2025, 0, 1), to: new Date(2025, 3, 1)
+			from: new Date(2025, 0, 1), to: new Date(2025, 2, 1)
 		},
 		skills: getSkills('java', 'spring boot'),
 		type: 'Spring Boot - Backend API'

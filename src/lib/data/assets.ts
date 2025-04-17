@@ -91,7 +91,8 @@ const Assets = {
 	Personalreading: a('personalreadinglogo.webp'),
 	Portfolio: a('portfoliologo.webp'),
 	Devhq: a('yinyang.jpg'),
-	Bookapi: a('bookapi.png')
+	Bookapi: a('bookapi.png'),
+	Taskbuddyapi: a('taskbuddy.png')
 };
 
 export default Assets;
