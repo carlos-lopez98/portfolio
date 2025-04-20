@@ -92,7 +92,7 @@ export const items: Array<Project> = [
 		logo: Assets.Taskbuddyapi,
 		name: 'Task Buddy API',
 		period: {
-			from: new Date(2025, 0, 1), to: new Date(2025, 4, 1)
+			from: new Date(2025, 0, 1), to: new Date(2025, 3, 1)
 		},
 		skills: getSkills('java', 'spring boot', 'postgres'),
 		type: 'Spring Boot - Backend API'
