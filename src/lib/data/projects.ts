@@ -66,6 +66,22 @@ export const items: Array<Project> = [
 		]
 	},
 	{
+		slug: 'blog-api',
+		color: 'cornflowerblue',
+		description:
+			'This is a backend-focused API designed to reinforce advanced Spring Boot concepts such as exception handling, validation, JPA integration, pagination, Swagger documentation, and testing with MockMVC. Beyond Spring, the project’s backend and database will be hosted on AWS, showcasing cloud skills including configuration, infrastructure setup, and production-level deployment.',
+		shortDescription:
+			'Blog Platform API - Will be hosted live on AWS',
+		links: [{ to: '', label: 'GitHub' }],
+		logo: Assets.Blogapi,
+		name: 'Blog Platform API',
+		period: {
+			from: new Date(2025, 0, 1), to: new Date(9999, 2, 1)
+		},
+		skills: getSkills('java', 'spring boot', 'aws', 'postgres'),
+		type: 'Work in Progress'
+	},
+	{
 		slug: 'task-buddy-api',
 		color: 'orange',
 		description:
@@ -96,7 +112,7 @@ export const items: Array<Project> = [
 		},
 		skills: getSkills('java', 'spring boot'),
 		type: 'Spring Boot - Backend API'
-	}
+	},
 
 ];
 

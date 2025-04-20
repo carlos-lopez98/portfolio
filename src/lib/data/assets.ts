@@ -92,7 +92,8 @@ const Assets = {
 	Portfolio: a('portfoliologo.webp'),
 	Devhq: a('yinyang.jpg'),
 	Bookapi: a('bookapi.png'),
-	Taskbuddyapi: a('taskbuddy.png')
+	Taskbuddyapi: a('taskbuddy.png'),
+	Blogapi: a('BlogAPI.png')
 };
 
 export default Assets;
