@@ -5,7 +5,7 @@ export const title = 'Home';
 
 export const name = 'Carlos';
 
-export const lastName = 'Jimenez';
+export const lastName = 'Lopez';
 
 export const description =
 	'I am a Junior Software Engineer looking to jump-start a long career in the tech industry. My current experience includes 2 years of Test Automation Engineering using Selenium and Java. My current development tech stack focuses on back-end development with Java and Spring Boot. I always strive for my best and hope to one day move into AI Development.';
