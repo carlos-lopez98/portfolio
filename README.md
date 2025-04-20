@@ -10,7 +10,7 @@ Check it out live [Portfolio](https://carlos-lopez98.github.io/portfolio)
 ## 🚀 Features
 
 - 💼 Project showcase with dynamic filtering
-- 📚 Deeper Look section with LeetCode stats, reading list, and personal updates
+- 📚 Deeper Look section with Dev Tracker, reading list, and some programming stats
 - 🎨 Responsive, themed UI with light/dark mode support
 - ✨ Hover interactions and animated cards
 - 🧠 Tech-focused and life-related content blended cleanly
@@ -44,7 +44,7 @@ Check it out live [Portfolio](https://carlos-lopez98.github.io/portfolio)
 
 > 🧠 "A more personal take on what I'm learning, building, and living."
 
-The portfolio goes beyond a basic project grid — it blends professional work with personal progress in areas like reading, fitness, and coding challenges.
+The portfolio goes beyond a basic project grid, it blends professional work with personal progress in areas like reading and coding challenges.
 
 ---
 
@@ -60,4 +60,4 @@ This project is for personal use, but feel free to fork for inspiration. 🙌 (P
 
 Original template: https://github.com/RiadhAdrani/slick-portfolio-svelte
 
-Modified by: Carlos Jimenez
+Modified by: Carlos Jimenez Lopez
