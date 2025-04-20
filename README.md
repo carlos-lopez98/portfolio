@@ -1,4 +1,4 @@
-# 🌐 Carlos Jimenez – Personal Portfolio
+# 🌐 Carlos Jimenez Lopez – Personal Portfolio Site
 
 A clean, responsive developer portfolio built with [SvelteKit](https://kit.svelte.dev), designed to showcase projects, skills, and personal interests — all in one place.
 
