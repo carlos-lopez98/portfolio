@@ -10,7 +10,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Test Automation',
 		location: 'Home',
-		period: { from: new Date(2024, 6, 1), to: new Date(2025, 1, 14) },
+		period: { from: new Date(2024, 6, 1), to: undefined },
 		skills: getSkills('java', 'selenium', 'reactjs'),
 		name: 'Test Automation Engineer',
 		color: 'purple',
